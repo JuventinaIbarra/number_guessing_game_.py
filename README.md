@@ -1,2 +1,2 @@
-# number_guessing_game_2.py
- 
+# The Number Guessing Game
+# Project 1
