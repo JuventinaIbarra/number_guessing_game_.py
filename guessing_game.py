@@ -18,8 +18,6 @@ def start_game():
                 print("You got it!! it took you {} tries.".format(attemps))
                 print("The game is over!")
                 break
-        except NameError as err:
-            print("Ooops it was not a valid value.  PLEASE TRY AGAIN")
-# Kick off the program by calling the start_game function.
-
+        except:
+            print("Ooops it was not a valid value, PLEASE TRY AGAIN")
 start_game()
